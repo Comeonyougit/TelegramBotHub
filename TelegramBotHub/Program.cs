@@ -6,7 +6,7 @@ namespace TelegramBotHub
     {
         static async Task Main(string[] args)
         {
-            var bot = new FredagBot("2078406572:AAFiM-IMgkbOwMNiN4nXiMevMxvdzAijtk8");
+            var bot = new FredagBot("");
             await bot.Start();
         }
     }
